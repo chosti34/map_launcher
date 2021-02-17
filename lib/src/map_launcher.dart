@@ -91,7 +91,7 @@ class MapLauncher {
       'destinationtitle': destinationTitle,
       'originLatitude': origin?.latitude?.toString(),
       'originLongitude': origin?.longitude?.toString(),
-      'origintitle': originTitle,
+      'originTitle': originTitle,
       'directionsMode': Utils.enumToString(directionsMode),
     };
     return _channel.invokeMethod('showDirections', args);
