@@ -88,7 +88,6 @@ class MapLauncher {
       'destinationTitle': destinationTitle,
       'destinationLatitude': destination.latitude.toString(),
       'destinationLongitude': destination.longitude.toString(),
-      'destinationtitle': destinationTitle,
       'originLatitude': origin?.latitude?.toString(),
       'originLongitude': origin?.longitude?.toString(),
       'originTitle': originTitle,
