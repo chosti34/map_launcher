@@ -176,6 +176,7 @@ String getMapDirectionsUrl({
           'lon_to': '${destination.longitude}',
           'lat_from': Utils.nullOrValue(origin, '${origin?.latitude}'),
           'lon_from': Utils.nullOrValue(origin, '${origin?.longitude}'),
+          'desc': 'Описание',
         },
       );
 
